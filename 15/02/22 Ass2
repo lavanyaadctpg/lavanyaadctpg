@@ -1,0 +1,12 @@
+a=int(input('enter a number:'))
+b=int(input('enter a number:'))
+Print(a//b)
+Print(a/b)
+
+
+
+Output:
+enter a number:6
+enter a number:5
+1
+1.2)
