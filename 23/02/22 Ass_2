@@ -1,0 +1,17 @@
+l=[]
+n=int(input('enter n'))
+for i in range(n):
+    e=int(input())
+    l.append(e)
+l.reverse()
+print("after reverse",l)
+
+
+output:
+enter n5
+4
+1
+2
+45
+4
+after reverse [4, 45, 2, 1, 4]
