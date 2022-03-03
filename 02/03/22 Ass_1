@@ -1,0 +1,21 @@
+mat1=[[4,5,3],
+      [10,9,8],
+      [5,9,9]]
+mat2=[[1,3,2],
+      [3,4,7],
+      [3,3,8]]
+matr=[[0,0,0],
+      [0,0,0],
+      [0,0,0]]
+for a in range(len(mat1)):
+    for b in range(len(mat1[0])):
+        matr[a][b]=mat1[a][b]-mat2[a][b]
+for c in matr:
+            print(c)
+            
+            
+            
+output:
+[[3,2,1],
+ [7,5,1],
+ [2,6,1]]
