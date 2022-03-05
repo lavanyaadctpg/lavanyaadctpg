@@ -1,0 +1,9 @@
+X=[1,2,1,4]
+Print(x.count(1))
+Print (x.count(2))
+Print (x.count(4))
+
+Output:
+2
+1
+1
